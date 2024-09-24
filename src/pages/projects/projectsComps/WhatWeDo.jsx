@@ -105,7 +105,7 @@ const WhatWeDo = () => {
               </div>
               <div className="image">
                   <div className="about">
-                  <h3 className="name">Events & Exihibitions</h3>
+                  <h3 className="name">Events & Exhibitions</h3>
                 
                   <h3> </h3>
                   <div className="button">

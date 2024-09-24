@@ -27,6 +27,7 @@ import mimg17 from '../../assets/imgs/members_in/17.jpg'
 import mimg18 from '../../assets/imgs/members_in/18.jpg'
 import mimg19 from '../../assets/imgs/members_in/19.jpg'
 import mimg20 from '../../assets/imgs/members_in/20.jpg'
+import mimg21 from '../../assets/imgs/members_in/21.jpg'
 import gd from '../../assets/imgs/members_in/gd.png'
 import slideVideo from '../../assets/videos/slider.webm';
 import Splash from '../../components/Splash.jsx'
@@ -103,6 +104,7 @@ const About = () => {
             img18={mimg18}
             img19={mimg19}
             img20={mimg20}
+            img21={mimg21}
             gd={gd}
           />
       </div>

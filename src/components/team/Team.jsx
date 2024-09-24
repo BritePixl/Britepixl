@@ -13,6 +13,7 @@ const Team = ({img1, img2, img3, img4, img5, img6, img7, img8, img9, img10,
     img18, 
     img19, 
     img20, 
+    img21, 
     gd}) => {
   return (
     <>
@@ -97,7 +98,7 @@ const Team = ({img1, img2, img3, img4, img5, img6, img7, img8, img9, img10,
                     <div id="draggable">
                         <div id="dashboard" className="shadow">
                             <div className="widget-inner loadable" id="a">
-                                <img src={img8}/>
+                                <img src={img21}/>
                             </div>
                             <div className="widget-inner loadable" id="b">
                                 <img src={gd}/>
@@ -237,6 +238,18 @@ const Team = ({img1, img2, img3, img4, img5, img6, img7, img8, img9, img10,
                         </div>
                     </div>
                 </div>
+                {/* <div className='member_image_container'>
+                    <div id="draggable">
+                        <div id="dashboard" className="shadow">
+                            <div className="widget-inner loadable" id="a">
+                                <img src={img21}/>
+                            </div>
+                            <div className="widget-inner loadable" id="b">
+                                <img src={gd}/>
+                            </div>
+                        </div>
+                    </div>
+                </div> */}
 
 
             </div>

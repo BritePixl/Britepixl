@@ -1,8 +1,8 @@
 import React from 'react'
-import elevatorScreen from '../products/elevator_screen.png';
-import hangingDisplay from '../products/hanging_display.png';
-import interactiveCoffee from '../products/interactive_coffee.png';
-import interactiveLCD from '../products/interactive_LCD.png';
+import room from '../products/room.png';
+import floor from '../products/floor.png';
+import globe from '../products/globe.png';
+import p1 from '../products/p1.png';
 const HomeProducts = () => {
     return (
         <section className='h_section'>
@@ -13,15 +13,15 @@ const HomeProducts = () => {
                 <div className="home_products_container">
                     <div className="card">
                         <div className="imgBx">
-                            <img src={elevatorScreen} alt="Elevator screen Display LCD 18.5 + 10.1" />
+                            <img src={room} alt="Immersive Room - Pixel Pitch P1.8" />
                         </div>
                         <div className="contentBx">
-                            <h2>Elevator screen</h2>
+                            <h2>Immersive Room</h2>
                             <div className="size">
-                                <h3>10.1 Inches</h3>
+                                <h3>Pixel Pitch P1.8 Custom models 4mW*3mH*3mD</h3>
                             </div>
                             <div className="color">
-                                <h3>Display LCD 18.5 + 10.1</h3>
+                                <h3>Used mainly in rental events</h3>
                             </div>
                         </div>
                     </div>
@@ -29,15 +29,15 @@ const HomeProducts = () => {
                 <div className="home_products_container">
                     <div className="card">
                         <div className="imgBx">
-                            <img src={hangingDisplay} alt="Hanging Display Doubled Sided Glass Frame" />
+                            <img src={globe} alt="3 Meter Globe - Custom modules 600 to 650 nits" />
                         </div>
                         <div className="contentBx">
-                            <h2>Hanging Display</h2>
+                            <h2>3 Meter Globe</h2>
                             <div className="size">
-                                <h3>43 Inches</h3>
+                                <h3>Custom modules 600 to 650 nits</h3>
                             </div>
                             <div className="color">
-                                <h3>Doubled Sided Glass Frame</h3>
+                                <h3>Can be used permanent or rental </h3>
                             </div>
                         </div>
                     </div>
@@ -45,15 +45,15 @@ const HomeProducts = () => {
                 <div className="home_products_container">
                     <div className="card">
                         <div className="imgBx">
-                            <img src={interactiveCoffee} alt="Interactive Coffee Table" />
+                            <img src={floor} alt="Interactive Coffee Table" />
                         </div>
                         <div className="contentBx">
-                            <h2>Interactive Table</h2>
+                            <h2>Interactive Floor</h2>
                             <div className="size">
-                                <h3>Multiple Sizes</h3>
+                                <h3>P3.91 500*500, with build in sensors</h3>
                             </div>
                             <div className="color">
-                                <h3>Interactive Coffee Table</h3>
+                                <h3>Used in events and Exhibitions</h3>
                             </div>
                         </div>
                     </div>
@@ -61,15 +61,15 @@ const HomeProducts = () => {
                 <div className="home_products_container">
                     <div className="card">
                         <div className="imgBx">
-                            <img src={interactiveLCD} alt="Interactive LCD screens" />
+                            <img src={p1} alt="P1.2 GOB Panel - Panel Size 640mm/480mm" />
                         </div>
                         <div className="contentBx">
-                            <h2>LCD screens</h2>
+                            <h2>P1.2 GOB Panel</h2>
                             <div className="size">
-                                <h3>Multiple Sizes</h3>
+                                <h3>Panel Size 640mm/480mm</h3>
                             </div>
                             <div className="color">
-                                <h3>Interactive LCD screens</h3>
+                                <h3>Brightness 700 to 900 nits GOD Panel, Indoor use</h3>
                             </div>
                         </div>
                     </div>
