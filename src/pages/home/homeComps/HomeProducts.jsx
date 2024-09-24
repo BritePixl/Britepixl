@@ -69,7 +69,7 @@ const HomeProducts = () => {
                                 <h3>Panel Size 640mm/480mm</h3>
                             </div>
                             <div className="color">
-                                <h3>Brightness 700 to 900 nits GOD Panel, Indoor use</h3>
+                                <h3>Brightness 700 to 900 nits GOB Panel, Indoor use</h3>
                             </div>
                         </div>
                     </div>
