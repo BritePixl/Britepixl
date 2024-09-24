@@ -18,7 +18,7 @@ const ContactForm = () => {
         if (!validateContactEmailVariables()) {
             setStatus('Please fill out all required fields!');
         }else{
-            axios.post('http://localhost:3000/email', {name, email, msg, phone })
+            axios.post('https://britepixl.com/email', {name, email, msg, phone })
             .then((res) => {
                 console.log(res.data)
                 if (res.data.success){
@@ -30,6 +30,9 @@ const ContactForm = () => {
                 }else{
                     setStatus('Failed to send message!');
                 }
+            })
+            .catch((err) => {
+                setStatus('Failed to send message!');
             })
         }
     }
