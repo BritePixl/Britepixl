@@ -1,0 +1,39 @@
+.project_sep_div img{
+    width: 70%;
+    max-width: 500px;
+    margin-bottom: 5vh;
+    animation-name: rot360;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+
+}
+
+
+.left_3d{
+    transform: perspective(500px) rotateY(-35deg);
+    transition-duration: 0.2s;
+  }
+
+@keyframes rot360 {
+    0%{
+        transform: perspective(500px) rotateY(0deg);
+    }
+    25%{
+        transform: perspective(500px) rotateY(90deg);
+     }
+    50% {
+        transform: perspective(500px) rotateY(180deg);
+    }
+    75% {
+        transform: perspective(500px) rotateY(270deg);
+    }
+    100%{
+        transform: perspective(500px) rotateY(360deg);
+    }
+}
+
+.projects_center_text{
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}

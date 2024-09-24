@@ -1,0 +1,148 @@
+.slider {  
+    position: relative;  
+    height: fit-content;
+    height: 80vh;
+  }  
+  
+  .slide {  
+    position: absolute;  
+    width: 100%;  
+    height: 80vh;  
+    opacity: 0;  
+    transition: opacity 1s ease;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }  
+  
+  .slide.active {  
+    opacity: 1;  
+  }
+
+#slide_no_1{
+    background-image: url('./projectsSliderImgs/img (1).gif');
+    
+    box-shadow: inset 0 0 0 2000px #000000b9;
+    background-size: cover;
+}
+#slide_no_2{
+    background-image: url('./projectsSliderImgs/img (2).gif');
+    
+    box-shadow: inset 0 0 0 2000px #000000b9;
+    background-size: cover;
+}
+#slide_no_3{
+    background-image: url('./projectsSliderImgs/img (3).gif');
+    
+    box-shadow: inset 0 0 0 2000px #000000b9;
+    background-size: cover;
+}
+.projects_page{
+  width: 100vw;
+}
+.projects_page #fluid{
+    position: absolute;
+    top: 0px;
+    background-image: none;
+    height: 80vh;
+    z-index: 990;
+    width: 100%;
+}
+.projects_slider_title{
+    color: white;
+    font-size: 7vw;
+    font-weight: bolder;
+    z-index: 1001;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// our services
+
+
+.block {
+  position: relative;
+  margin-inline: 2%;
+  width: 15%;
+  height: 10rem;
+  background: white;
+  background-color: #100f14;
+  border-radius: 1rem;
+  background-size: contain;
+  transition-duration: 0.3s;
+  animation-duration: 0.2s;
+}
+
+
+.block:before, .block:after {
+  content: '';
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  border-radius: 1.1rem;
+  left: -4px;
+  top: -4px;
+  background: linear-gradient(45deg, #ffb84d, #ff5411, #f43333, #ff5411, #ffb84d);
+  background-size: 400%;
+  width: calc(100% + 8px);
+  height: calc(100% + 8px);
+  z-index: -1;
+  animation: steam 20s linear infinite;
+}
+@keyframes steam {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.block:after {
+  filter: blur(15px);
+}
+
+.block1{
+  // background-image: url('https://assets.technologynetworks.com/production/dynamic/images/content/373640/technologies-helping-to-drive-digital-transformation-and-laboratory-efficiencies-373640-960x540.jpg?cb=12505825');
+  background-size: cover;
+  background-position: center;
+}
+.block2{
+  // background-image: url('../../../assets//imgs//members/img11.png');
+}
+.block3{
+  // background-image: url('../../../assets//imgs//members/img12.png');
+}
+.block4{
+  // background-image: url('../../../assets//imgs//members/img13.png');
+}
+.block5{
+  // background-image: url('../../../assets//imgs//members/img14.png');
+}
+
+.our_serv_text{
+  font-size: 1.2vw;
+  font-weight: bold;
+  font-style: normal;
+  color: #b12554;
+  // color: white;
+}

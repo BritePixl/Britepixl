@@ -1,0 +1,118 @@
+.home_container {
+    // background-color: #000;
+    width: 100vw;
+    // height: 100vh;
+  }
+  
+#fluid {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./hbg.gif');
+    background-size: cover;
+} 
+.home_container #fluid{
+    box-shadow: inset 0 0 0 2000px #000000b9;
+}
+.home_content{
+    position: relative;
+    top: 0px;
+    height: 100vh;
+    width: 100vw;
+    z-index: 50;
+}
+.main_title{
+    color: #e85822;
+    font-size: 4vw;
+    margin: 0px;
+    padding: 0px;
+    width: 60%;
+    user-select: none;
+    text-align: left;
+}
+.paragraph{
+    font-size: 2vw;
+    margin: 0px;
+    padding: 0px;
+    width: 60%;
+    color: white;
+    user-select: none;
+    text-align: left;
+}
+
+
+@media (min-width: 100px) and (max-width: 740px){
+    .main_title, .paragraph{
+        width: 90%;
+    }
+    .main_title{
+        font-size: 2rem;
+    }
+    .paragraph{
+        font-size: 1rem;
+    }
+
+}
+
+
+.video-background {  
+    position: relative;  
+    overflow: hidden;  
+    
+    video {  
+        position: absolute;  
+        top: 50%;  
+        left: 50%;  
+        min-width: 100%;  
+        min-height: 100%;  
+        width: auto;  
+        height: auto;  
+        transform: translate(-50%, -50%);  
+        z-index: -1; // Ensures the video is behind the content  
+    }  
+
+    .content {  
+        position: relative;  
+        z-index: 1; // Content is in front  
+        // Additional styles for your content  
+    }  
+}
+.video-background{
+    z-index: 10000;
+}
+.video-background video{
+    width: 100%;
+    position: absolute;
+}
+.home_container {
+    text-align: left;
+    width: 90%;
+    margin-top: 7%;
+}
+.home_container h2{
+    text-align: justify;
+}
+.home_container img{
+    height: 6rem;
+    margin-bottom: 1rem;
+}
+
+
+
+@media (min-width: 100px) and (max-width: 740px){
+    .home_container {
+        text-align: center;
+        width: 90%;
+    }
+    .home_container img{
+        height: unset;
+        width: 60%;
+    }
+    .home_container .paragraph{
+        text-align: justify;
+    }
+}
+.home_section_page .home_container_content {
+    top: 35%;
+}
