@@ -38,20 +38,35 @@ function App() {
     }
   }
 
+  // const use state to save the screen width and changes with the current state
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+  useEffect(() => {
+    const handleResize = () => {
+      setScreenWidth(window.innerWidth);
+    };
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+
   return (
     <>
 
       <center>
         <div className='cursor_holder'>
-          <AnimatedCursor
-            innerSize={8}
-            outerSize={35}
-            color='193, 11, 111'
-            outerAlpha={0.3}
-            innerScale={1}
-            outerScale={1}
-            trailingSpeed={2}
-          />
+          {
+            screenWidth > 1024?(
+              <AnimatedCursor
+                innerSize={8}
+                outerSize={35}
+                color='193, 11, 111'
+                outerAlpha={0.3}
+                innerScale={1}
+                outerScale={1}
+                trailingSpeed={2}
+              />
+            ):null
+          }
         </div>
         <BrowserRouter basename='/'>
         <ScrollToTop />

@@ -10,7 +10,12 @@ import Splash from '../../components/Splash.jsx'
 const Home = () => {
 
   const playFromHome = () => {
-    document.getElementById("playMusic").click();
+    try {
+      document.getElementById("playMusic").click();
+    }
+    catch (error) {
+      // Ignore
+    }
   }
   const [isLoaded, setIsLoaded] = useState(false);
   useEffect(() => {
