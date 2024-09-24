@@ -25,13 +25,13 @@ const Projects = () => {
       {
         !isLoaded && <Splash />
       }
-      <div>
+      <div className='home_section_page'>
         <video autoPlay muted loop playsInline preload="auto" className='video_slider' src={slideVideo} type="video/webm" />
-        {/* <div className="home_container_content">
+        <div className="home_container_content">
           <h2 className='paragraph'>
-          We create immersive experiences by blending multimedia, interactivity, and architecture to realize brand visions.
+          Bringing spaces to life with innovative visual solutions
           </h2>
-        </div> */}
+        </div>
       </div>
       <div className='projects_page'>
         <OurServices />
