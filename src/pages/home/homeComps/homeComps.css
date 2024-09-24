@@ -105,7 +105,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) rotate(20deg);
+  transform: translate(-50%, -50%);
   height: 50%;
 }
 
@@ -260,6 +260,7 @@
   }
   .home_products_container .card .imgBx img {
     width: 100%;
+    height: auto;
   }
 }
 .h_section .download {
