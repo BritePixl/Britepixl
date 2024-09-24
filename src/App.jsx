@@ -14,6 +14,7 @@ import PrivacyPolicy from './pages/privacy/PrivacyPolicy.jsx'
 import music from './assets/audio/bg.mp3'
 import NotFound from './pages/notFound/NotFound.jsx'
 import ScrollToTop from './components/ScrollToTop.jsx'
+import ProgressBar from './components/progress/ProgressBar.jsx'
 
 
 const song = new Audio(music);
@@ -26,7 +27,6 @@ function App() {
     }, 1000);
   }, [])
 
-
   const playMusic = () => {
     if (!isPlaying) {
         song.play();
@@ -37,14 +37,6 @@ function App() {
         setIsPlaying(false);
     }
   }
-  // useEffect(() => {
-  //   const script = document.createElement('script')
-  //   script.src = '/wave.js' // path of the plugin called Slick Slider
-  //   script.async = true // false not work too
-  //   setTimeout(() => {
-  //     document.body.append(script) // the element <script> is appended but no work
-  //   }, 2000);
-  // })
 
   return (
     <>
@@ -63,6 +55,7 @@ function App() {
         </div>
         <BrowserRouter basename='/'>
         <ScrollToTop />
+        <ProgressBar />
           {
             isLoading?(
               <Splash />
