@@ -58,6 +58,7 @@ function App() {
             outerAlpha={0.3}
             innerScale={1}
             outerScale={1}
+            trailingSpeed={2}
           />
         </div>
         <BrowserRouter basename='/'>

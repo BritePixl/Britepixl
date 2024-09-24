@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import './home.scss'
-import logo from '../../assets/icons/logo.png';
 import slideVideo from '../../assets/videos/slider.webm';
 import './home.js'
 import ContactForm from '../contact/contactComps/ContactForm.jsx';
@@ -27,7 +26,6 @@ const Home = () => {
       <div  onClick={() => playFromHome()} className='home_section_page'>
         <video autoPlay muted loop className='video_slider' playsInline preload="auto"  src={slideVideo} type="video/webm" />
         <div className="home_container_content">
-          {/* <img src={logo} /> */}
           <h2 className='paragraph'>Where your ideas meet our <br />innovative visual solutions</h2>
         </div>
       </div>
