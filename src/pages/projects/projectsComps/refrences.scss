@@ -474,11 +474,14 @@ $color-box-7 : #de8b3e;
 
 
 
-@media (min-width: 100px) and (max-width: 740px){
+@media (min-width: 50px) and (max-width: 740px){
   .our_services_container{
     width: 100%;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .block:nth-last-child(1) {
+    grid-column: 1 / -1;
   }
   .block{
       width: 35vw;
