@@ -233,3 +233,17 @@ footer hr {
   bottom: 0;
   background-color: #e85722; /* Underline color for active link */
 }
+.social_meida_icons_comp{
+  position: fixed;
+  top: 30%;
+}
+.social_meida_icons_comp .social_media_icon{
+  display: block;
+  margin: 10px;
+  padding: 0px;
+  transition-duration: 0.2s;
+  z-index: 1000;
+}
+.social_meida_icons_comp .social_media_icon:hover{
+  scale: 1.5;
+}

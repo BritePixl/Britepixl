@@ -47,23 +47,22 @@ function App() {
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   }, []);
-
-
+  
+  
   return (
     <>
-
       <center>
         <div className='cursor_holder'>
           {
             screenWidth > 1024?(
               <AnimatedCursor
-                innerSize={8}
-                outerSize={35}
-                color='193, 11, 111'
-                outerAlpha={0.3}
-                innerScale={1}
-                outerScale={1}
-                trailingSpeed={2}
+              innerSize={8}
+              outerSize={35}
+              color='193, 11, 111'
+              outerAlpha={0.3}
+              innerScale={1}
+              outerScale={1}
+              trailingSpeed={2}
               />
             ):null
           }
@@ -77,7 +76,6 @@ function App() {
             ):null
           }
           <Header />
-
           <Routes>
             <Route exact path='/'  Component={Home} />
             <Route path='/about' Component={About} />

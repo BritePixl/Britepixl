@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import logo from "../assets/icons/logo.png";
 import { Link, useLocation } from "react-router-dom";
+import SocialMediaIcons from "./SocialMediaIcons";
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -27,6 +28,7 @@ const Header = () => {
 
   return (
     <header className={hState}>
+      <SocialMediaIcons />
       <div className="header_bar">
         <div className="to_left header_logo_container">
           <Link to="/">
