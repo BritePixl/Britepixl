@@ -68,8 +68,10 @@ const ContactForm = () => {
                 <span className="circle two"></span>
 
                 <form>
-                <h2>We’d Love to Hear from You!</h2>
-                <p>Whether you have a question, feedback, or just want to say hello. Thank you for reaching out!</p>
+                    <div className="to_left">
+                        <h2>We’d Love to Hear from You!</h2>
+                        <p>Whether you have a question, feedback, or just want to say hello. Thank you for reaching out!</p>
+                    </div>
                     <div className="input-container">
                     <input placeholder='Name' value={name} onChange={e => setName(e.target.value)} type="text" name="name" className="input" />
                     <span>Username</span>

@@ -112,7 +112,6 @@
     width: 35%;
 	max-width: unset;
     cursor: pointer;
-
 }
 
 .image:nth-child(1) {
@@ -235,3 +234,12 @@
  .our_services_container_block h2{
 	margin-top: 6vh;
  }
+
+
+
+
+@media (min-width: 50px) and (max-width:720px) {
+    .image:hover{
+        width: 85%;
+    }
+}

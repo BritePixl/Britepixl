@@ -151,3 +151,6 @@ html{
     display: none;
   }
 }
+.to_left{
+  text-align: left;
+}
