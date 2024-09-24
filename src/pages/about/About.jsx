@@ -43,7 +43,7 @@ const About = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setFirstSlide(!firstSlide);
-    }, 3000);
+    }, 7000);
     return () => clearInterval(interval);
   }, [firstSlide]);
   return (
