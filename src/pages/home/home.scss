@@ -123,3 +123,33 @@
 .paragraph{
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
+
+
+@media (min-width: 100px) and (max-width: 740px){
+    .home_container_content {
+        text-align: center;
+        top: 120px;
+    }
+    .home_section_page .home_container_content {
+        text-align: center;
+        top: 120px;
+    }
+    .home_container_content .paragraph {
+        width: 100%;
+        text-align: center;
+    }
+    .home_section_page .home_container_content .paragraph{
+        font-size: 1rem;
+    }
+    .slide_down_animation .mt {
+        font-size: 1.5rem;
+        width: 100%;
+        text-align: center;
+    }
+    .slide_down_animation{
+        top: 4.3rem;
+    }
+    .slide_down_animation .paragraph{
+        font-size: 0.8rem;
+    }
+}

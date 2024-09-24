@@ -15,6 +15,17 @@ const Partners = () => {
         <div className="partners_info_section">
             <h2 className='mt'>OUR CLIENTS & PARTNERSHIPS</h2>
         </div>
+        <div className='show_on_mobile_logos'>
+            <img src={logo1} />
+            <img src={logo2} />
+            <img src={logo3} />
+            <img src={logo4} />
+            <img src={logo5} />
+            <img src={logo6} />
+            <img src={logo7} />
+            <img src={logo8} />
+            <img src={logo9} />
+        </div>
         <div className="logos">
             <div className="logo_items">
                 <img src={logo1} />
@@ -28,7 +39,7 @@ const Partners = () => {
                 <img src={logo9} />
 
             </div>
-            <div className="logo_items">
+            <div className="logo_items hide_on_mobile_logos">
                 <img src={logo1} />
                 <img src={logo2} />
                 <img src={logo3} />
@@ -39,7 +50,7 @@ const Partners = () => {
                 <img src={logo8} />
                 <img src={logo9} />
             </div>
-            <div className="logo_items">
+            <div className="logo_items hide_on_mobile_logos">
                 <img src={logo1} />
                 <img src={logo2} />
                 <img src={logo3} />
@@ -50,7 +61,7 @@ const Partners = () => {
                 <img src={logo8} />
                 <img src={logo9} />
             </div>
-            <div className="logo_items">
+            <div className="logo_items hide_on_mobile_logos">
                 <img src={logo1} />
                 <img src={logo2} />
                 <img src={logo3} />

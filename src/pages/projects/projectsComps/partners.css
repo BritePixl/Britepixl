@@ -66,12 +66,20 @@
     font-size: 3vw;
     margin: 0px;
   }
-
+  .show_on_mobile_logos{
+    display: none;
+  }
 @media (min-width: 100px) and (max-width: 740px){
   .logo_items img{
     height: 2rem;
   }
   .logos{
     padding-block: 1rem;
+  }
+  .logo_items {
+    display: none;
+  }
+  .show_on_mobile_logos{
+    display: block;
   }
 }

@@ -143,14 +143,6 @@ html{
 }
 
 
-@media (min-width: 100px) and (max-width: 740px){
-  .video_slider{
-    display: block;
-  }
-  .home_container_content{
-    display: none;
-  }
-}
 .to_left{
   text-align: left;
 }
