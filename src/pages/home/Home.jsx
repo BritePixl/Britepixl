@@ -26,7 +26,7 @@ const Home = () => {
       <div  onClick={() => playFromHome()} className='home_section_page'>
         <video autoPlay muted loop className='video_slider' playsInline preload="auto"  src={slideVideo} type="video/webm" />
         <div className="home_container_content">
-          <h2 className='paragraph'>Where your ideas meet our <br />innovative visual solutions</h2>
+          <h2 className='paragraph'>Where your ideas meet our innovative visual solutions</h2>
         </div>
       </div>
       <div className='home_container'>
