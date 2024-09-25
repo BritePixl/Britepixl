@@ -1,4 +1,4 @@
-@keyframes logos_slides {
+/* @keyframes logos_slides {
     from {
       transform: translateX(0);
     }
@@ -6,7 +6,7 @@
       transform: translateX(-100%);
     }
   }
-  
+   */
   .logos {
     /* overflow: hidden; */
     white-space: nowrap;
@@ -36,7 +36,6 @@
   
   .logo_items {
     display: inline-block;
-    animation: 35s logos_slides infinite linear;
   }
   
   .logos:hover .logo_items {
@@ -44,9 +43,8 @@
   }
   
   .logo_items img{
-    height: 5rem;
+    height: 6rem;
     margin-inline: 2rem;
-    /* filter: contrast(0%) brightness(2); */
     border-radius: 0.5rem;
     transition-duration: 0.2s;
   }

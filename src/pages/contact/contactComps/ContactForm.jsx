@@ -48,7 +48,7 @@ const ContactForm = () => {
                     <span><h2>Head Office </h2>Office 615, CEO Building, Dubai Investment Park 1, Dubai, UAE <br />+97143206880</span>
                     <br />
                     <br />
-                    <span><h2>Experience Center</h2> Store 6, Opp to Union Cement Factory,  Dubai Investment Park 2, Dubai, UAE, <br />+971504916305</span>
+                    <span><h2>Experience Center</h2> Warehouse  6, Opp to Union Cement Factory,  Dubai Investment Park 2, Dubai, UAE, <br />+971504916305</span>
                     <br />
                     <br />
                     <span><h2>Regional Office - Saudi Arabia</h2>Majed Inn, Warehouse No 71, Al Aziziyah, Riyadh, Saudi Arabia <br />+966578063267</span>

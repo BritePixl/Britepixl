@@ -37,8 +37,8 @@ $color-box-7 : #de8b3e;
 
     
   .cards {
-      width: 300px;
-      height: 400px;
+      width: 90%;
+      // height: 400px;
       display: block;
       background-size: cover;
       float: left;
@@ -522,10 +522,10 @@ $color-box-7 : #de8b3e;
     width: 90%;
     margin-bottom: 5vw;
   }
-  .card__collection{
-    grid-template-columns: 25% 25% 25% 25%;
-    padding-left: 5%;
-  }
+  // .card__collection{
+  //   grid-template-columns: 25% 25% 25% 25%;
+  //   padding-left: 5%;
+  // }
 }
 
 @media (max-width: 1307px) and (min-width: 741px) {

@@ -39,39 +39,6 @@ const Partners = () => {
                 <img src={logo9} />
 
             </div>
-            <div className="logo_items hide_on_mobile_logos">
-                <img src={logo1} />
-                <img src={logo2} />
-                <img src={logo3} />
-                <img src={logo4} />
-                <img src={logo5} />
-                <img src={logo6} />
-                <img src={logo7} />
-                <img src={logo8} />
-                <img src={logo9} />
-            </div>
-            <div className="logo_items hide_on_mobile_logos">
-                <img src={logo1} />
-                <img src={logo2} />
-                <img src={logo3} />
-                <img src={logo4} />
-                <img src={logo5} />
-                <img src={logo6} />
-                <img src={logo7} />
-                <img src={logo8} />
-                <img src={logo9} />
-            </div>
-            <div className="logo_items hide_on_mobile_logos">
-                <img src={logo1} />
-                <img src={logo2} />
-                <img src={logo3} />
-                <img src={logo4} />
-                <img src={logo5} />
-                <img src={logo6} />
-                <img src={logo7} />
-                <img src={logo8} />
-                <img src={logo9} />
-            </div>
         </div>
     </div>
   )

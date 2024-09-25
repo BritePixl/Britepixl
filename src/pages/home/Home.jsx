@@ -24,6 +24,7 @@ const Home = () => {
       setIsLoaded(true);
     }, 500); // Simulating loading time of 1 second.
   }, [])
+  const [showTyped, setShowTyped] = useState(true);
   return (
     <>
       {
@@ -33,7 +34,9 @@ const Home = () => {
         <video autoPlay muted loop className='video_slider' playsInline preload="auto"  src={slideVideo} type="video/webm" />
         <div className="home_container_content">
           <h2 className='paragraph'>
-            <ReactTyped typeSpeed={50} backSpeed={30} backDelay={3000} strings={["Out of the box solutions ", "Expect the unexpected", "Capturing audience not things"]}></ReactTyped>
+            {
+              showTyped && <ReactTyped typeSpeed={50} backSpeed={30} loop={false} backDelay={3000} onComplete={() => setShowTyped(false)} showCursor={false} strings={["Out of the box solutions ", "Expect the unexpected", "Capturing audience not things", ""]}></ReactTyped>
+            }
           </h2>
         </div>
       </div>
