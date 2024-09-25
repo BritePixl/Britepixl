@@ -44,7 +44,9 @@ const Home = () => {
         <HomeProjects />
         <HomeProducts />
       </div>
-      <ContactForm />
+      <div className='home_contact_us_section'>
+        <ContactForm />
+      </div>
     </>
   )
 }

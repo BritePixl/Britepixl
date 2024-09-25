@@ -146,3 +146,26 @@ html{
 .to_left{
   text-align: left;
 }
+
+
+@media (min-width: 851px) {
+  .home_contact_us_section .contact_us_container{
+    justify-content: unset;
+    margin-bottom: 0px;
+    border-radius: 0px;
+  }
+  .home_contact_us_section .form{
+    width: 100vw;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    max-width: unset;
+  }
+  .home_contact_us_section .form .contact-form {
+    width: 50vw;
+    padding-inline: 10%;
+  }
+  .home_contact_us_section .form .contact-info {
+    width: 50vw;
+    padding-inline: 10%;
+  }
+}
