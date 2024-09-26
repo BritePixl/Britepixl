@@ -109,6 +109,50 @@ footer hr {
   display: none;
 }
 
+
+
+
+
+.video_modal_container{
+  background-color: #0000006c;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 999;
+}
+.video_modal_container_video{
+  position: fixed;
+  background-color: white;
+  border-radius: 1rem;
+  top: 0px;
+  width: 50vw;
+  margin: 20vw;
+  z-index: 1000;
+  margin-top: 5%;
+  padding-bottom: 2rem;
+}
+.video_modal_header{
+  text-align: right;
+  padding: 1rem;
+}
+.video_modal_header button{
+  width: 2rem;
+  height: 2rem;
+  border: none;
+  color: #e85722;
+  border-radius: 2rem;
+  background-color: white;
+}
+.modal_video{
+  text-align: center;
+}
+.modal_video video{
+  width: 90%;
+}
+
+
 @media (min-width: 100px) and (max-width: 740px) {
   .footer_card {
     margin-top: 3rem;
@@ -180,6 +224,11 @@ footer hr {
   }
   .header_menu_container {
     padding: 0px;
+  }
+  .video_modal_container_video{
+    width: 90%;
+    margin: 0px;
+    margin-top: 25%;
   }
 }
 

@@ -1,16 +1,31 @@
-import React from 'react'
+import React, { useState } from 'react'
 import room from '../products/room.png';
 import floor from '../products/floor.png';
 import globe from '../products/globe.png';
 import p1 from '../products/p1.png';
+import VideoModal from '../../../components/VideoModal';
+
 const HomeProducts = () => {
+    const [showVideoModal, setShowVideoModal] = useState(false);
+    const [selectedProduct, setSelectedProduct] = useState('none');
+    const handleProductSelect = (product) => {
+        setSelectedProduct(product);
+        setShowVideoModal(true);
+    };
+    const handleModalClose = () => {
+        setSelectedProduct('none');
+        setShowVideoModal(false);
+    }
     return (
         <section className='h_section'>
+            {
+                showVideoModal && <VideoModal handleModalClose={handleModalClose} selectedProduct={selectedProduct} />
+            }
             <div className="partners_info_section">
                 <h2 className='mt'>TRENDING PRODUCTS</h2>
             </div>
             <div className='home_products_cards_container'>
-                <div className="home_products_container">
+                <div className="home_products_container" onClick={() => handleProductSelect('room')}>
                     <div className="card">
                         <div className="imgBx">
                             <img src={room} alt="Immersive Room - Pixel Pitch P1.8" />
@@ -26,7 +41,7 @@ const HomeProducts = () => {
                         </div>
                     </div>
                 </div>
-                <div className="home_products_container">
+                <div className="home_products_container" onClick={() => handleProductSelect('globe')}>
                     <div className="card">
                         <div className="imgBx">
                             <img src={globe} alt="3 Meter Globe - Custom modules 600 to 650 nits" />
@@ -42,7 +57,7 @@ const HomeProducts = () => {
                         </div>
                     </div>
                 </div>
-                <div className="home_products_container">
+                <div className="home_products_container" onClick={() => handleProductSelect('floor')}>
                     <div className="card">
                         <div className="imgBx">
                             <img src={floor} alt="Interactive Coffee Table" />
@@ -58,7 +73,7 @@ const HomeProducts = () => {
                         </div>
                     </div>
                 </div>
-                <div className="home_products_container">
+                <div className="home_products_container" onClick={() => handleProductSelect('p1')}>
                     <div className="card">
                         <div className="imgBx">
                             <img src={p1} alt="P1.2 GOB Panel - Panel Size 640mm/480mm" />
