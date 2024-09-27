@@ -36,7 +36,7 @@ header {
   top: 0px;
   left: 0px;
   right: 0px;
-  z-index: 998;
+  z-index: 984;
 }
 .header_bar {
   box-shadow: 0px 0px 19px -4px rgba(0, 0, 0, 0.863);
@@ -120,18 +120,18 @@ footer hr {
   left: 0px;
   right: 0px;
   bottom: 0px;
-  z-index: 999;
+  z-index: 985;
 }
 .video_modal_container_video{
   position: fixed;
-  background-color: white;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  padding: 1rem;
   border-radius: 1rem;
   top: 0px;
-  width: 50vw;
-  margin: 20vw;
-  z-index: 1000;
-  margin-top: 5%;
-  padding-bottom: 2rem;
+  width: 100vw;
+  z-index: 986;
 }
 .video_modal_header{
   text-align: right;
@@ -150,6 +150,7 @@ footer hr {
 }
 .modal_video video{
   width: 90%;
+  border-radius: 0.5rem;
 }
 
 
