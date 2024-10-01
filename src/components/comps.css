@@ -109,11 +109,7 @@ footer hr {
   display: none;
 }
 
-
-
-
-
-.video_modal_container{
+.video_modal_container {
   background-color: #0000006c;
   position: fixed;
   top: 0px;
@@ -122,7 +118,7 @@ footer hr {
   bottom: 0px;
   z-index: 985;
 }
-.video_modal_container_video{
+.video_modal_container_video {
   position: fixed;
   left: 0px;
   right: 0px;
@@ -133,11 +129,11 @@ footer hr {
   width: 100vw;
   z-index: 986;
 }
-.video_modal_header{
+.video_modal_header {
   text-align: right;
   padding: 1rem;
 }
-.video_modal_header button{
+.video_modal_header button {
   width: 2rem;
   height: 2rem;
   border: none;
@@ -145,14 +141,13 @@ footer hr {
   border-radius: 2rem;
   background-color: white;
 }
-.modal_video{
+.modal_video {
   text-align: center;
 }
-.modal_video video{
+.modal_video video {
   width: 90%;
   border-radius: 0.5rem;
 }
-
 
 @media (min-width: 100px) and (max-width: 740px) {
   .footer_card {
@@ -226,10 +221,13 @@ footer hr {
   .header_menu_container {
     padding: 0px;
   }
-  .video_modal_container_video{
-    width: 90%;
+  .video_modal_container_video {
+    width: 100%;
     margin: 0px;
     margin-top: 25%;
+  }
+  .modal_video video {
+    width: 100%;
   }
 }
 
@@ -283,17 +281,17 @@ footer hr {
   bottom: 0;
   background-color: #e85722; /* Underline color for active link */
 }
-.social_meida_icons_comp{
+.social_meida_icons_comp {
   position: fixed;
   top: 30%;
 }
-.social_meida_icons_comp .social_media_icon{
+.social_meida_icons_comp .social_media_icon {
   display: block;
   margin: 10px;
   padding: 0px;
   transition-duration: 0.2s;
   z-index: 1000;
 }
-.social_meida_icons_comp .social_media_icon:hover{
+.social_meida_icons_comp .social_media_icon:hover {
   scale: 1.5;
 }
