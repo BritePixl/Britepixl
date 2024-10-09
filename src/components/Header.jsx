@@ -38,16 +38,14 @@ const Header = () => {
         <div className="to_right header_menu_container">
           <i
             onClick={() => setShowMenu(false)}
-            className={showMenu ? "menu_on_mobile" : ""}
-          >
+            className={showMenu ? "menu_on_mobile" : ""}>
             <Link
               className={
                 loc.pathname === "/"
                   ? "link hide_on_mobile link_active"
                   : "link hide_on_mobile"
               }
-              to="/"
-            >
+              to="/">
               HOME
             </Link>
             <Link
@@ -56,8 +54,7 @@ const Header = () => {
                   ? "link hide_on_mobile link_active"
                   : "link hide_on_mobile"
               }
-              to="/about"
-            >
+              to="/about">
               ABOUT
             </Link>
             <Link
@@ -66,25 +63,33 @@ const Header = () => {
                   ? "link hide_on_mobile link_active"
                   : "link hide_on_mobile"
               }
-              to="/projects"
-            >
+              to="/projects">
               PROJECTS
             </Link>
+
+            <Link
+              className={
+                loc.pathname === "/blogs"
+                  ? "link hide_on_mobile link_active"
+                  : "link hide_on_mobile"
+              }
+              to="/blogs">
+              BLOGS
+            </Link>
+
             <Link
               className={
                 loc.pathname === "/contact"
                   ? "link hide_on_mobile link_active"
                   : "link hide_on_mobile"
               }
-              to="/contact"
-            >
+              to="/contact">
               CONTACT
             </Link>
           </i>
           <button
             onClick={() => setShowMenu(!showMenu)}
-            className="link pi pi-bars"
-          ></button>
+            className="link pi pi-bars"></button>
         </div>
       </div>
     </header>

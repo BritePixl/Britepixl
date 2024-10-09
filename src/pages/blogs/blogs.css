@@ -1,0 +1,36 @@
+.blogs_section_page {
+  min-height: 100vh;
+  padding-top: 10rem;
+}
+.blogs_section_page .home_projects_container {
+  padding: 5vw;
+}
+
+.blogs_section_page .home_projects_container .project {
+  margin-bottom: 2rem;
+}
+.post_container {
+  background-color: rgb(240, 240, 240);
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+.post_header {
+  display: block;
+  height: 50%;
+  width: 100%;
+}
+.post_body {
+  display: block;
+  height: 30%;
+  width: 100%;
+}
+.post_footer {
+  display: block;
+  height: 20%;
+  width: 100%;
+}
