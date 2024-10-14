@@ -4,13 +4,14 @@ import floor from "../products/floor.png";
 import globe from "../products/globe.png";
 import p1 from "../products/p1.png";
 import VideoModal from "../../../components/VideoModal";
+import { useNavigate } from "react-router-dom";
 
 const HomeProducts = () => {
   const [showVideoModal, setShowVideoModal] = useState(false);
   const [selectedProduct, setSelectedProduct] = useState("none");
+  const navigate = useNavigate();
   const handleProductSelect = (product) => {
-    setSelectedProduct(product);
-    setShowVideoModal(true);
+    navigate("/product/" + product);
   };
   const handleModalClose = () => {
     setSelectedProduct("none");

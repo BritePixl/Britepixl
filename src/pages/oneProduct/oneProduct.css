@@ -1,0 +1,26 @@
+.on_product_page_section {
+  padding: 5%;
+  padding-top: 10rem;
+}
+.on_product_page_section {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.one_product_video_slider video {
+  width: 80%;
+}
+.one_product_content {
+  text-align: left;
+}
+
+@media (min-width: 100px) and (max-width: 1200px) {
+  .on_product_page_section {
+    grid-template-columns: 100%;
+  }
+  .one_product_content {
+    width: 80%;
+  }
+  .one_product_video_slider video {
+    width: 100%;
+  }
+}

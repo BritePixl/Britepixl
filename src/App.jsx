@@ -16,6 +16,7 @@ import NotFound from "./pages/notFound/NotFound.jsx";
 import ScrollToTop from "./components/ScrollToTop.jsx";
 import ProgressBar from "./components/progress/ProgressBar.jsx";
 import Blogs from "./pages/blogs/Blogs.jsx";
+import OneProduct from "./pages/oneProduct/OneProduct.jsx";
 
 const song = new Audio(music);
 function App() {
@@ -76,6 +77,7 @@ function App() {
             <Route path="/contact" Component={ContactUs} />
             <Route path="/privacy" Component={PrivacyPolicy} />
             <Route path="/blogs" Component={Blogs} />
+            <Route path="/product/:id" Component={OneProduct} />
             <Route path="*" Component={NotFound} />
           </Routes>
 
