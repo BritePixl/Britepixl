@@ -140,27 +140,43 @@ const OneProduct = () => {
   };
   const { id } = useParams();
   return (
-    <div className="on_product_page_section">
-      <div>
-        <div className="one_product_video_slider">
-          <video muted src={products[id].video} autoPlay loop />
-        </div>
-      </div>
-      <div>
-        <div className="one_product_content">
-          <h1>{products[id].title}</h1>
-          <p>{products[id].about}</p>
-          <div className="one_product_content_list">
-            {products[id].content.map((item, index) => (
-              <div key={index}>
-                <h2>{item.subTitle}</h2>
-                <p>{item.subContent}</p>
+    <>
+      {products[id] ? (
+        <>
+          <title>{products[id].title}</title>
+          <div className="on_product_page_section">
+            <div>
+              <div className="one_product_video_slider">
+                <video muted src={products[id].video} autoPlay loop />
               </div>
-            ))}
+            </div>
+            <div>
+              <div className="one_product_content">
+                <h1>{products[id].title}</h1>
+                <p>{products[id].about}</p>
+                <div className="one_product_content_list">
+                  {products[id].content.map((item, index) => (
+                    <div key={index}>
+                      <h2>{item.subTitle}</h2>
+                      <p>{item.subContent}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        </>
+      ) : (
+        <div className="on_product_page_section">
+          <div>
+            <h1>Error 404</h1>
+          </div>
+          <div>
+            <h1>Product not found</h1>
           </div>
         </div>
-      </div>
-    </div>
+      )}
+    </>
   );
 };
 
