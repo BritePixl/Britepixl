@@ -49,6 +49,7 @@ const About = () => {
   }, [firstSlide]);
   return (
     <>
+      <title>BritePixl | Leading LED Display Solutions Provider</title>
       {!isLoaded && <Splash />}
       <div>
         <video

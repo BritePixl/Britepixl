@@ -25,6 +25,10 @@ const Home = () => {
   const [showTyped, setShowTyped] = useState(true);
   return (
     <>
+      <title>
+        Innovative LED Display Solutions | Outdoor & Indoor LED Screens -
+        BritePixl
+      </title>
       {!isLoaded && <Splash />}
       <div onClick={() => playFromHome()} className="home_section_page">
         <video
