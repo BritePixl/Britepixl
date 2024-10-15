@@ -18,8 +18,9 @@ const Refrences = () => {
   const [projectIndex, setProjectIndex] = useState(-1);
   const [projectModal, setProjectModal] = useState(false);
   const showProjectModal = (index) => {
-    setProjectIndex(index);
-    setProjectModal(true);
+    console.log("showProjectModal");
+    // setProjectIndex(index);
+    // setProjectModal(true);
   };
   const handleClose = () => {
     setProjectIndex(-1);
