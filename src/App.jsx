@@ -75,6 +75,7 @@ function App() {
             <Route path="/about" Component={About} />
             <Route path="/projects" Component={Projects} />
             <Route path="/contact" Component={ContactUs} />
+            <Route path="/privacy-policy" Component={PrivacyPolicy} />
             <Route path="/privacy" Component={PrivacyPolicy} />
             <Route path="/blogs" Component={Blogs} />
             <Route path="/product/:id" Component={OneProduct} />
