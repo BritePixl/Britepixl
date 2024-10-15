@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "./refrences.scss";
+import gitex from "./ref/gitex.png";
+import world_utilities_congress from "./ref/world_utilities_congress.png";
 import img1 from "./ref/1.jpg";
 import img2 from "./ref/2.jpg";
 import img3 from "./ref/3.jpg";
@@ -37,6 +39,31 @@ const Refrences = () => {
       </div>
       <div>
         <div className="card__collection clear-fix">
+          <div onClick={() => showProjectModal(1)} className="cards cards--two">
+            <img src={gitex} className="img-responsive" alt="Cards Image" />
+            <span className="cards--two__rect"></span>
+            <span className="cards--two__tri"></span>
+            <p>Abu Dhabi UAE</p>
+          </div>
+
+          <div
+            onClick={() => showProjectModal(2)}
+            className="cards cards--three">
+            <img
+              src={world_utilities_congress}
+              className="img-responsive"
+              alt=""
+            />
+            <span className="cards--three__rect-1">
+              <span className="shadow-1"></span>
+              <p>Abu Dhabi UAE</p>
+            </span>
+            <span className="cards--three__rect-2">
+              <span className="shadow-2"></span>
+            </span>
+            <span className="cards--three__circle"></span>
+          </div>
+
           <div onClick={() => showProjectModal(1)} className="cards cards--two">
             <img src={img1} className="img-responsive" alt="Cards Image" />
             <span className="cards--two__rect"></span>
