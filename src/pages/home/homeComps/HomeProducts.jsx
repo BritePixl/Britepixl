@@ -34,7 +34,11 @@ const HomeProducts = () => {
           onClick={() => handleProductSelect("room")}>
           <div className="card">
             <div className="imgBx">
-              <img src={room} alt="Immersive Room - Pixel Pitch P1.8" />
+              <img
+                src={room}
+                alt="Immersive Room - Pixel Pitch P1.8"
+                title="Immersive Room - Pixel Pitch P1.8"
+              />
             </div>
             <div className="contentBx">
               <h2>Immersive Room</h2>
@@ -55,6 +59,7 @@ const HomeProducts = () => {
               <img
                 src={globe}
                 alt="3 Meter Globe - Custom modules 600 to 650 nits"
+                title="3 Meter Globe - Custom modules 600 to 650 nits"
               />
             </div>
             <div className="contentBx">
@@ -73,7 +78,11 @@ const HomeProducts = () => {
           onClick={() => handleProductSelect("floor")}>
           <div className="card">
             <div className="imgBx">
-              <img src={floor} alt="Interactive Coffee Table" />
+              <img
+                src={floor}
+                alt="Interactive Coffee Table"
+                title="Interactive Coffee Table"
+              />
             </div>
             <div className="contentBx">
               <h2>Interactive Floor</h2>
@@ -91,7 +100,11 @@ const HomeProducts = () => {
           onClick={() => handleProductSelect("p1")}>
           <div className="card">
             <div className="imgBx">
-              <img src={p1} alt="P1.2 GOB Panel - Panel Size 640mm/480mm" />
+              <img
+                src={p1}
+                alt="P1.2 GOB Panel - Panel Size 640mm/480mm"
+                title="P1.2 GOB Panel - Panel Size 640mm/480mm"
+              />
             </div>
             <div className="contentBx">
               <h2>P1.2 GOB Panel</h2>
