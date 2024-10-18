@@ -4,8 +4,10 @@ import CoProfile from "../image/BritePixl_Profile_2024.pdf";
 
 import "./aboutComp.css";
 import aboutMainImg from "../image/about_main.png";
+import { useNavigate } from "react-router-dom";
 
 const AboutInfo = () => {
+  const navigate = useNavigate();
   const downloadProfile = () => {
     window.open(CoProfile);
   };
@@ -31,11 +33,19 @@ const AboutInfo = () => {
                 delivering customized experiences that empower client success
                 across diverse industries. Let's bring your vision to life!
               </h2>
-              <button
-                onClick={() => downloadProfile()}
-                className="download right_3d">
-                Download Profile
-              </button>
+              <div className="about_info_buttons">
+                <button
+                  onClick={() => downloadProfile()}
+                  className="download right_3d">
+                  Download Profile
+                </button>
+
+                <button
+                  onClick={() => navigate("/visual-solutions")}
+                  className="download right_3d">
+                  Read More
+                </button>
+              </div>
             </div>
           </div>
           <br />

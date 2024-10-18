@@ -140,7 +140,14 @@
     background-position: right top;
   }
 }
-
+.about_info_buttons {
+  width: 100%;
+  padding-inline: 2.5rem;
+  text-align: left;
+}
+.about_info_buttons button {
+  display: block;
+}
 .enter_text {
   display: inline-block;
   color: purple;
@@ -172,7 +179,17 @@
   .enter_text {
     font-size: 4vw;
   }
+  .about_info_buttons {
+    width: 100%;
+    padding: 0px;
+    padding-inline: 0px;
+  }
+  .about_info_buttons button {
+    width: 100%;
+    padding-inline: 0px;
+  }
 }
+
 .home_button_container {
   width: 100%;
   text-align: center;
