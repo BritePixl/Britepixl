@@ -295,3 +295,15 @@ footer hr {
 .social_meida_icons_comp .social_media_icon:hover {
   scale: 1.5;
 }
+
+.project_modal_video video {
+  width: unset;
+  height: 85vh;
+}
+
+@media (min-width: 100px) and (max-width: 740px) {
+  .project_modal_video video {
+    width: 90%;
+    height: unset;
+  }
+}
