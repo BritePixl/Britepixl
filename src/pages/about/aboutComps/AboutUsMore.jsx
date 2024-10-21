@@ -16,16 +16,16 @@ const AboutUsMore = () => {
       </div>
       <div className="about_two_card">
         <div className="two_card_img mid">
-          <img src={twoCardImg} alt="card img" />
+          <img src={twoCardImg} alt="Visual Solutions" />
         </div>
         <div className="mid">
           <div className="two_card_content">
             <h2>Know Us More</h2>
             <p>
-              We deliver exceptional visual and interactive solutions that
-              exceed client expectations, our vision is to revolutionize the way
-              people interact with visual display by creating immersive and
-              interactive experiences that captivate audiences and drive
+              We deliver exceptional visual solutions and interactive solutions
+              that exceed client expectations, our vision is to revolutionize
+              the way people interact with visual display by creating immersive
+              and interactive experiences that captivate audiences and drive
               meaningful engagement, our strengths lie in our unwavering
               commitment to innovation and creativity
             </p>
