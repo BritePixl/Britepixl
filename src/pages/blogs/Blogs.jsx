@@ -3,6 +3,7 @@ import "./blogs.css";
 import { Link } from "react-router-dom";
 import services from "./posts/imgs/services.png";
 import visual_solutions from "./posts/imgs/visual_solutions.png";
+import qubit from "./posts/imgs/qubit.png";
 const Blogs = () => {
   return (
     <div className="blogs_section_page">
@@ -42,6 +43,25 @@ const Blogs = () => {
               </div>
               <div className="post_footer">
                 <Link to="/blog/visual-solutions" className="blog_link">
+                  Read More
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="project">
+          <div className="post_container">
+            <div style={{ height: "100%", width: "100%" }}>
+              <div className="post_header">
+                <img src={qubit} />
+              </div>
+              <div className="post_body">
+                <p>_</p>
+                <h3>Qubit & Britepixl</h3>
+              </div>
+              <div className="post_footer">
+                <Link to="/blog/qubit" className="blog_link">
                   Read More
                 </Link>
               </div>
