@@ -18,6 +18,7 @@ import ProgressBar from "./components/progress/ProgressBar.jsx";
 import Blogs from "./pages/blogs/Blogs.jsx";
 import OneProduct from "./pages/oneProduct/OneProduct.jsx";
 import VisualSolutions from "./pages/visualSolutions/VisualSolutions.jsx";
+import Services from "./pages/blogs/posts/Services.jsx";
 
 const song = new Audio(music);
 function App() {
@@ -79,6 +80,8 @@ function App() {
             <Route path="/privacy-policy" Component={PrivacyPolicy} />
             <Route path="/privacy" Component={PrivacyPolicy} />
             <Route path="/blogs" Component={Blogs} />
+            <Route path="/blog/services" Component={Services} />
+            <Route path="/blog/visual-solutions" Component={VisualSolutions} />
             <Route path="/visual-solutions" Component={VisualSolutions} />
             <Route path="/product/:id" Component={OneProduct} />
             <Route path="*" Component={NotFound} />

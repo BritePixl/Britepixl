@@ -67,7 +67,7 @@ const Header = () => {
               PROJECTS
             </Link>
 
-            {/* <Link
+            <Link
               className={
                 loc.pathname === "/blogs"
                   ? "link hide_on_mobile link_active"
@@ -75,7 +75,7 @@ const Header = () => {
               }
               to="/blogs">
               BLOGS
-            </Link> */}
+            </Link>
 
             <Link
               className={
