@@ -35,8 +35,9 @@ const Refrences = () => {
           projectIndex={projectIndex}
         />
       )}
+
       <div className="partners_info_section">
-        <h2 className="mt">OUR SUCCESS STORIES</h2>
+        <h1 className="mt">OUR SUCCESS STORIES</h1>
       </div>
       <div>
         <div className="card__collection clear-fix">

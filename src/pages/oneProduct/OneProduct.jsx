@@ -153,12 +153,12 @@ const OneProduct = () => {
             <div>
               <div className="one_product_content">
                 <h1>{products[id].title}</h1>
-                <p>{products[id].about}</p>
+                <p className="white_txt">{products[id].about}</p>
                 <div className="one_product_content_list">
                   {products[id].content.map((item, index) => (
                     <div key={index}>
                       <h2>{item.subTitle}</h2>
-                      <p>{item.subContent}</p>
+                      <p className="white_txt">{item.subContent}</p>
                     </div>
                   ))}
                 </div>
