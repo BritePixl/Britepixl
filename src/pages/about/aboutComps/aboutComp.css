@@ -3,7 +3,7 @@
 .about_pref {
   min-height: 20vh;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 100;
   padding: 5rem;
 }
 .pref_card {
@@ -35,13 +35,13 @@
 }
 .about_pref_title {
   text-align: left;
-  padding-left: 5%;
+  padding-left: 2.5rem;
   font-size: 3vw;
   margin: 0px;
 }
 .about_pref_content {
   text-align: left;
-  padding-left: 5%;
+  padding-left: 2.5rem;
   font-size: 1.5vw;
   margin: 0px;
 }
@@ -146,7 +146,7 @@
   text-align: left;
 }
 .about_info_buttons button {
-  display: block;
+  margin-right: 1rem;
 }
 .enter_text {
   display: inline-block;

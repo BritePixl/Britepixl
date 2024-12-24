@@ -7,13 +7,13 @@ import twoCardImg from "../image/card.png";
 const AboutUsMore = () => {
   return (
     <div className="bubbles more_about_section ">
-      <div className="about_text_card">
+      {/* <div className="about_text_card">
         <div className="wev_height">
           <div className="text-container">
             <h1>we illuminate visions </h1>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="about_two_card">
         <div className="two_card_img mid">
           <img src={twoCardImg} alt="Visual Solutions" />

@@ -50,9 +50,9 @@ const AboutInfo = () => {
           </div>
           <br />
         </div>
-        <div className="mid">
+        {/* <div className="mid">
           <img className="about_main_img" src={aboutMainImg} alt="about us" />
-        </div>
+        </div> */}
       </div>
       <div className="typing_animation">
         <h2>

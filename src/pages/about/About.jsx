@@ -88,7 +88,7 @@ const About = () => {
         {/* <AboutSlider img1={img1} img2={img2} img3={img3} img4={img4} /> */}
         <AboutInfo />
         <AboutUsMore />
-        <Team
+        {/* <Team
           img1={mimg1}
           img2={mimg2}
           img3={mimg3}
@@ -111,7 +111,7 @@ const About = () => {
           img20={gd}
           img21={gd}
           gd={gd}
-        />
+        /> */}
       </div>
     </>
   );

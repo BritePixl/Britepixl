@@ -63,7 +63,7 @@ const Home = () => {
       </div>
       <div className="home_container">
         <HomeProjects />
-        <HomeProducts />
+        {/* <HomeProducts /> */}
       </div>
       <div className="home_contact_us_section">
         <ContactForm />
